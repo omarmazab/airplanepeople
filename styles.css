@@ -1,0 +1,96 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: whitesmoke;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #333;
+  border-radius: 0;
+  border: 0;
+}
+
+#custom-navbar-brand {
+  margin-left: 25px;
+  width: 350px;
+}
+
+.navbar-img	{
+	/* TODO:  make size a ratio of image size */;
+	display: inline-block;
+	 width: 20%; 
+	 height: 20%;
+}
+
+.title {
+	font-size: 150%;
+	color: white;
+}
+
+#nav-list a{
+	color: whitesmoke;
+	height: 100%;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: lightgrey;
+	color: #333;
+}
+
+button.navbar-toggler, .navbar-toggler-icon {
+  	background: lightgrey;
+
+}
+
+button.navbar-toggler {
+  clear: both;
+}
+
+.container .jumbotron {
+	box-shadow: 0 0 50px darkgray;
+	border: 2px solid lightblue;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('./img/jumbotron_1200.png') no-repeat;
+    height: 646px;
+  
+ 
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('./img/jumbotron_992.png') no-repeat;
+    height: 544px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('./img/jumbotron_768.png') no-repeat;
+    height: 408px;
+  }
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	/* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+}
