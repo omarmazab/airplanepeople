@@ -52,6 +52,7 @@ button.navbar-toggler {
 .container .jumbotron {
 	box-shadow: 0 0 50px darkgray;
 	border: 2px solid lightblue;
+	margin-top: 15px;
 }
 
 /********** Large devices only **********/
@@ -92,5 +93,15 @@ button.navbar-toggler {
     margin-top: 30px;
     padding: 0;
   }
-
 }
+
+#timeline-tile, #mech-tile, #spotting-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid lightblue;
+	overflow: hidden;
+	box-shadow: 0 0 30px darkgray;
+}
+
