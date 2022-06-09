@@ -55,6 +55,34 @@ button.navbar-toggler {
 	margin-top: 15px;
 }
 
+
+#timeline-tile, #mech-tile, #spotting-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid lightblue;
+	overflow: hidden;
+	box-shadow: 0 0 30px darkgray;
+}
+
+#timeline-tile span, #spotting-tile span, #mech-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
+} 
+#timeline-tile {
+	background: url('img/timelineimage.jpg');
+	background-position: center;
+}
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
@@ -93,15 +121,21 @@ button.navbar-toggler {
     margin-top: 30px;
     padding: 0;
   }
+  #timeline-tile, #mech-tile, #spotting-tile {
+  	width: 333px;
+  	margin: 0 auto 15px;	
+  }
+
+}
+.card-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
 }
 
-#timeline-tile, #mech-tile, #spotting-tile {
-	height: 250px;
-	width: 100%;
-	margin-bottom: 15px;
-	position: relative;
-	border: 2px solid lightblue;
-	overflow: hidden;
-	box-shadow: 0 0 30px darkgray;
+#copyright {
+	text-align: center;
+	margin: auto;
 }
-
