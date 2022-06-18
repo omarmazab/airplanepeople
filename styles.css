@@ -1,8 +1,12 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: whitesmoke;
+  background-color: #3c3f58;
   font-family: 'Orbitron', sans-serif;
+}
+
+.timeline {
+   font-family: 'Arvo', serif;
 }
 
 /** HEADER **/
